@@ -1,0 +1,17 @@
+#k8s extra files
+/k8s creation scripts/.terraform/**
+/k8s creation scripts/*.hcl
+/k8s creation scripts/*.json
+
+#exept tfstate files
+/k8s creation scripts/*.tfstate
+/vm creation scripts/*.tfstate
+
+#exept tfvar files
+/vm creation scripts/*.tfvars
+/k8s creation scripts/*.tfvars
+
+#vm extra files
+/vm creation scripts/.terraform/**
+/vm creation scripts/**.hcl
+/vm creation scripts/*.json
